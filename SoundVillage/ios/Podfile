@@ -1,0 +1,74 @@
+# Uncomment the next line to define a global platform for your project
+#platform :ios, '12.0'
+
+target 'SoundVillage' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for SoundVillage
+
+  # Required by RNFirebase
+  pod 'Firebase/Core', '~> 5.15.0'
+
+  # [OPTIONAL PODS] - comment out pods for firebase products you won't be using.
+  # pod 'Firebase/AdMob', '~> 5.15.0'
+  pod 'Firebase/Auth', '~> 5.15.0'
+  pod 'Firebase/Core', '~> 5.15.0'
+  pod 'Firebase/Database', '~> 5.15.0'
+  pod 'Firebase/Functions', '~> 5.15.0'
+  # pod 'Firebase/DynamicLinks', '~> 5.15.0'
+  pod 'Firebase/Firestore', '~> 5.15.0'
+  pod 'Firebase/Storage', '~> 5.15.0'
+
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs'
+
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+
+  pod 'React', :path => '../node_modules/react-native'
+  pod 'React-Core', :path => '../node_modules/react-native'
+      #'CxxBridge', # Include this for RN >= 0.47
+      #'DevSupport', # Include this to enable In-App Devmenu if RN >= 0.43
+    pod 'ReactCommon', :path => '../node_modules/react-native/ReactCommon'   
+    pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi'
+    pod 'React-RCTText', :path => '../node_modules/react-native/Libraries/Text'
+    pod 'React-RCTNetwork', :path => '../node_modules/react-native/Libraries/Network'
+    pod 'React-callinvoker', :path => '../node_modules/react-native/ReactCommon/callinvoker'
+ #   pod 'React-RCTWebSocket', :path => '../node_modules/react-native/Libraries/WebSocket'
+    pod 'React-RCTAnimation', :path => '../node_modules/react-native/Libraries/NativeAnimation'
+    pod 'React-RCTActionSheet', :path => '../node_modules/react-native/Libraries/ActionSheetIOS'
+    pod 'React-RCTBlob', :path => '../node_modules/react-native/Libraries/Blob' 
+   #pod 'React-RCTGeoLocation', :path => '../node_modules/react-native/Libraries/GeoLocation'
+    pod 'React-RCTImage', :path => '../node_modules/react-native/Libraries/Image'
+    pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
+     pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
+    pod 'React-cxxreact', :path => '../node_modules/react-native/ReactCommon/cxxreact'
+    pod 'React-RCTLinking', :path => '../node_modules/react-native/Libraries/LinkingIOS'
+    pod 'React-RCTVibration', :path => '../node_modules/react-native/Libraries/Vibration'
+    pod 'React-RCTPushNotification', :path => '../node_modules/react-native/Libraries/PushNotificationIOS'
+    pod 'React-RCTSettings', :path => '../node_modules/react-native/Libraries/Settings'
+    pod 'FBReactNativeSpec', :path => '../node_modules/react-native/Libraries/FBReactNativeSpec'
+    pod 'RCTRequired', :path => '../node_modules/react-native/Libraries/RCTRequired'
+    pod 'FBLazyVector', :path => '../node_modules/react-native/Libraries/FBLazyVector'
+    pod 'RCTTypeSafety', :path => '../node_modules/react-native/Libraries/TypeSafety'
+ #   pod 'ReactCommon/turbomodule/core', :path => '../node_modules/react-native/ReactCommon/turbomodule/core'
+
+
+
+#pod 'React-RCTCameraRoll', :path => '../node_modules/react-native/Libraries/CameraRoll'
+      # Add any other subspecs you want to use in your project
+    
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+
+  pod 'ReactNativeSearchBar', :path => '../node_modules/react-native-search-bar'
+
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+end

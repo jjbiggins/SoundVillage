@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "886570259513",
+    "firebase_url": "https://soundvillage-8041b.firebaseio.com",
+    "project_id": "soundvillage-8041b",
+    "storage_bucket": "soundvillage-8041b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886570259513:android:2228ffb018ee4b6b",
+        "android_client_info": {
+          "package_name": "com.soundvillage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886570259513-441fp53esm7shqhk0vh7dbmdm093f78p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXOtNWpT3ZILv1WQnZDFF9D74d6Ei_crs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

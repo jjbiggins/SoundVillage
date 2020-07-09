@@ -1,0 +1,47 @@
+{
+  "name": "SoundVillage",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "src/assets/fonts"
+    ]
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.3",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.0.0",
+    "jest": "24.0.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react": "^16.8.6",
+    "react-native": "^0.63.0",
+    "react-native-apple-music": "^1.0.0",
+    "react-native-elements": "^1.1.0",
+    "react-native-firebase": "^5.3.0",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-popup-menu": "^0.15.5",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-search-bar": "^3.4.2",
+    "react-native-slider": "^0.11.0",
+    "react-native-touchable-scale": "^2.0.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-native-webview": "^5.6.2",
+    "react-navigation": "^3.6.1",
+    "react-redux": "^6.0.1",
+    "react-test-renderer": "16.6.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "rn-spotify-sdk": "^1.2.6",
+    "tcomb-form-native": "^0.6.20",
+    "watchman": "^1.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
